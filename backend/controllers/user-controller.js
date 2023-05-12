@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 const user = require('../models/User');
-const Bookings = require('../models/Booking');
+const Bookings = require('../models/Bookings');
 
 const getAllUser = async (req,res,next) => {
     let users;
