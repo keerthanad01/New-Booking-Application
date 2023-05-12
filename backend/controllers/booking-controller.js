@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Movie = require("../models/Movies");
 const users = require('../models/User');
-const Bookings = require("../models/Booking");
+const Bookings = require("../models/Bookings");
 
 const Booking = async (req, res, next) => {
     const {movie, date, seatNumber, user} = req.body;
